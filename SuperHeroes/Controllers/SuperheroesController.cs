@@ -22,7 +22,7 @@ namespace SuperHeroes.Controllers
         }
 
         // GET: Superheroes/Details/5
-        public ActionResult Details(SuperHero superHero)
+        public ActionResult Details(int id ,SuperHero superHero)
         {
             //SuperHero superHero = context.superHeroes.Where(c => c.id == id).Single();
             return View(superHero);
