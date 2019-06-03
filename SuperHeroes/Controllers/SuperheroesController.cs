@@ -22,9 +22,9 @@ namespace SuperHeroes.Controllers
         }
 
         // GET: Superheroes/Details/5
-        public ActionResult Details(int id ,SuperHero superHero)
+        public ActionResult Details(int id)
         {
-            //SuperHero superHero = context.superHeroes.Where(c => c.id == id).Single();
+            SuperHero superHero = context.superHeroes.Where(c => c.id == id).Single();
             return View(superHero);
         }
 
@@ -55,17 +55,19 @@ namespace SuperHeroes.Controllers
         // GET: Superheroes/Edit/5
         public ActionResult Edit(int id)
         {
-            return View();
+            SuperHero superHero = context.superHeroes.Where(c => c.id == id).Single();
+            return View(superHero);
         }
 
         // POST: Superheroes/Edit/5
         [HttpPost]
-        public ActionResult Edit(int id, FormCollection collection)
+        public ActionResult Edit(int id, SuperHero superHero)
         {
             try
             {
                 // TODO: Add update logic here
-
+                
+                context.SaveChanges();
                 return RedirectToAction("Index");
             }
             catch
