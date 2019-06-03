@@ -66,6 +66,13 @@ namespace SuperHeroes.Controllers
             try
             {
                 // TODO: Add update logic here
+
+                SuperHero superHeroe = context.superHeroes.Where(c => c.id == id).Single();
+                superHeroe.name = superHero.name;
+                superHeroe.alterEgo = superHero.alterEgo;
+                superHeroe.primaryAbilies = superHero.primaryAbilies;
+                superHeroe.secondaryAbilities = superHero.secondaryAbilities;
+                superHeroe.catchphrase = superHero.catchphrase;
                 
                 context.SaveChanges();
                 return RedirectToAction("Index");
