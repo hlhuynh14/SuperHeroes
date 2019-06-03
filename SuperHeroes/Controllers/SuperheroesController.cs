@@ -17,13 +17,15 @@ namespace SuperHeroes.Controllers
         // GET: Superheroes
         public ActionResult Index()
         {
-            return View();
+            IEnumerable<SuperHeroes.Models.SuperHero> index = context.superHeroes.AsEnumerable();
+            return View(index);
         }
 
         // GET: Superheroes/Details/5
-        public ActionResult Details(int id)
+        public ActionResult Details(SuperHero superHero)
         {
-            return View();
+            //SuperHero superHero = context.superHeroes.Where(c => c.id == id).Single();
+            return View(superHero);
         }
 
         // GET: Superheroes/Create
@@ -75,16 +77,19 @@ namespace SuperHeroes.Controllers
         // GET: Superheroes/Delete/5
         public ActionResult Delete(int id)
         {
-            return View();
+            SuperHero superHero = context.superHeroes.Where(c => c.id == id).Single();
+            return View(superHero);
         }
 
         // POST: Superheroes/Delete/5
         [HttpPost]
-        public ActionResult Delete(int id, FormCollection collection)
+        public ActionResult Delete(int id, SuperHero superHero)
         {
             try
             {
                 // TODO: Add delete logic here
+                context.superHeroes.Remove(superHero);
+                context.SaveChanges();
 
                 return RedirectToAction("Index");
             }
