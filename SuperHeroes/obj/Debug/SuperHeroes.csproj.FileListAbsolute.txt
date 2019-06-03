@@ -99,9 +99,9 @@ C:\Users\hlhuynh14\Desktop\devCodeCamp Projects\SuperHeroes\SuperHeroes\bin\Micr
 C:\Users\hlhuynh14\Desktop\devCodeCamp Projects\SuperHeroes\SuperHeroes\bin\Microsoft.Owin.Security.OAuth.xml
 C:\Users\hlhuynh14\Desktop\devCodeCamp Projects\SuperHeroes\SuperHeroes\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\hlhuynh14\Desktop\devCodeCamp Projects\SuperHeroes\SuperHeroes\obj\Debug\SuperHeroes.csprojAssemblyReference.cache
+C:\Users\hlhuynh14\Desktop\devCodeCamp Projects\SuperHeroes\SuperHeroes\obj\Debug\SuperHeroes.Migrations.thing.resources
+C:\Users\hlhuynh14\Desktop\devCodeCamp Projects\SuperHeroes\SuperHeroes\obj\Debug\SuperHeroes.csproj.GenerateResource.cache
 C:\Users\hlhuynh14\Desktop\devCodeCamp Projects\SuperHeroes\SuperHeroes\obj\Debug\SuperHeroes.csproj.CoreCompileInputs.cache
 C:\Users\hlhuynh14\Desktop\devCodeCamp Projects\SuperHeroes\SuperHeroes\obj\Debug\SuperHeroes.csproj.CopyComplete
 C:\Users\hlhuynh14\Desktop\devCodeCamp Projects\SuperHeroes\SuperHeroes\obj\Debug\SuperHeroes.dll
 C:\Users\hlhuynh14\Desktop\devCodeCamp Projects\SuperHeroes\SuperHeroes\obj\Debug\SuperHeroes.pdb
-C:\Users\hlhuynh14\Desktop\devCodeCamp Projects\SuperHeroes\SuperHeroes\obj\Debug\SuperHeroes.Migrations.thing.resources
-C:\Users\hlhuynh14\Desktop\devCodeCamp Projects\SuperHeroes\SuperHeroes\obj\Debug\SuperHeroes.csproj.GenerateResource.cache
